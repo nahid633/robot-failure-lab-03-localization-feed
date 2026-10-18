@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "branch_delivery": {
+    "localization": {
+      "dropped": 10.0,
+      "confirmed_receipts": 35,
+      "restoration_after_window_s": 0.06700000000000017
+    },
+    "obstacles": {
+      "dropped": 10.0,
+      "confirmed_receipts": 35,
+      "restoration_after_window_s": 0.06700000000000017
+    }
+  },
+  "transform_probes": {
+    "before": {
+      "samples": 16,
+      "map_odom_unavailable": 0,
+      "map_base_unavailable": 15
+    },
+    "window": {
+      "samples": 40,
+      "map_odom_unavailable": 22,
+      "map_base_unavailable": 40
+    },
+    "tail": {
+      "samples": 80,
+      "map_odom_unavailable": 2,
+      "map_base_unavailable": 80
+    }
+  },
+  "collision_state_events": 1,
+  "note": "Forwarding and independent observer receipts validated; not proof every Nav2 consumer processed every scan."
+}

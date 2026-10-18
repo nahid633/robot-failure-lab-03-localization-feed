@@ -1,0 +1,308 @@
+{
+  "block-1-normal": {
+    "passed": true,
+    "branch_delivery": {
+      "localization": {
+        "dropped": 0.0,
+        "confirmed_receipts": 76,
+        "restoration_after_window_s": 0.06700000000000017
+      },
+      "obstacles": {
+        "dropped": 0.0,
+        "confirmed_receipts": 76,
+        "restoration_after_window_s": 0.06700000000000017
+      }
+    },
+    "transform_probes": {
+      "before": {
+        "samples": 16,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 16
+      },
+      "window": {
+        "samples": 40,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 40
+      },
+      "tail": {
+        "samples": 80,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 80
+      }
+    },
+    "collision_state_events": 0,
+    "note": "Forwarding and independent observer receipts validated; not proof every Nav2 consumer processed every scan."
+  },
+  "block-1-full-outage": {
+    "passed": true,
+    "branch_delivery": {
+      "localization": {
+        "dropped": 10.0,
+        "confirmed_receipts": 35,
+        "restoration_after_window_s": 0.06700000000000017
+      },
+      "obstacles": {
+        "dropped": 10.0,
+        "confirmed_receipts": 35,
+        "restoration_after_window_s": 0.06700000000000017
+      }
+    },
+    "transform_probes": {
+      "before": {
+        "samples": 16,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 16
+      },
+      "window": {
+        "samples": 40,
+        "map_odom_unavailable": 22,
+        "map_base_unavailable": 40
+      },
+      "tail": {
+        "samples": 80,
+        "map_odom_unavailable": 2,
+        "map_base_unavailable": 80
+      }
+    },
+    "collision_state_events": 1,
+    "note": "Forwarding and independent observer receipts validated; not proof every Nav2 consumer processed every scan."
+  },
+  "block-1-localization-fed": {
+    "passed": true,
+    "branch_delivery": {
+      "localization": {
+        "dropped": 0.0,
+        "confirmed_receipts": 151,
+        "restoration_after_window_s": 0.06700000000000017
+      },
+      "obstacles": {
+        "dropped": 10.0,
+        "confirmed_receipts": 141,
+        "restoration_after_window_s": 0.06700000000000017
+      }
+    },
+    "transform_probes": {
+      "before": {
+        "samples": 16,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 16
+      },
+      "window": {
+        "samples": 40,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 40
+      },
+      "tail": {
+        "samples": 80,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 80
+      }
+    },
+    "collision_state_events": 2,
+    "note": "Forwarding and independent observer receipts validated; not proof every Nav2 consumer processed every scan."
+  },
+  "block-2-full-outage-attempt-2": {
+    "passed": true,
+    "branch_delivery": {
+      "localization": {
+        "dropped": 10.0,
+        "confirmed_receipts": 35,
+        "restoration_after_window_s": 0.06700000000000017
+      },
+      "obstacles": {
+        "dropped": 10.0,
+        "confirmed_receipts": 35,
+        "restoration_after_window_s": 0.06700000000000017
+      }
+    },
+    "transform_probes": {
+      "before": {
+        "samples": 16,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 16
+      },
+      "window": {
+        "samples": 40,
+        "map_odom_unavailable": 22,
+        "map_base_unavailable": 40
+      },
+      "tail": {
+        "samples": 80,
+        "map_odom_unavailable": 2,
+        "map_base_unavailable": 80
+      }
+    },
+    "collision_state_events": 1,
+    "note": "Forwarding and independent observer receipts validated; not proof every Nav2 consumer processed every scan."
+  },
+  "block-2-localization-fed": {
+    "passed": true,
+    "branch_delivery": {
+      "localization": {
+        "dropped": 0.0,
+        "confirmed_receipts": 282,
+        "restoration_after_window_s": 0.06700000000000017
+      },
+      "obstacles": {
+        "dropped": 10.0,
+        "confirmed_receipts": 272,
+        "restoration_after_window_s": 0.06700000000000017
+      }
+    },
+    "transform_probes": {
+      "before": {
+        "samples": 16,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 16
+      },
+      "window": {
+        "samples": 40,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 40
+      },
+      "tail": {
+        "samples": 80,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 80
+      }
+    },
+    "collision_state_events": 2,
+    "note": "Forwarding and independent observer receipts validated; not proof every Nav2 consumer processed every scan."
+  },
+  "block-2-normal": {
+    "passed": true,
+    "branch_delivery": {
+      "localization": {
+        "dropped": 0.0,
+        "confirmed_receipts": 76,
+        "restoration_after_window_s": 0.06400000000000006
+      },
+      "obstacles": {
+        "dropped": 0.0,
+        "confirmed_receipts": 76,
+        "restoration_after_window_s": 0.06400000000000006
+      }
+    },
+    "transform_probes": {
+      "before": {
+        "samples": 16,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 16
+      },
+      "window": {
+        "samples": 40,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 40
+      },
+      "tail": {
+        "samples": 80,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 79
+      }
+    },
+    "collision_state_events": 0,
+    "note": "Forwarding and independent observer receipts validated; not proof every Nav2 consumer processed every scan."
+  },
+  "block-3-localization-fed": {
+    "passed": true,
+    "branch_delivery": {
+      "localization": {
+        "dropped": 0.0,
+        "confirmed_receipts": 81,
+        "restoration_after_window_s": 0.06700000000000017
+      },
+      "obstacles": {
+        "dropped": 10.0,
+        "confirmed_receipts": 71,
+        "restoration_after_window_s": 0.06700000000000017
+      }
+    },
+    "transform_probes": {
+      "before": {
+        "samples": 16,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 16
+      },
+      "window": {
+        "samples": 40,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 40
+      },
+      "tail": {
+        "samples": 80,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 80
+      }
+    },
+    "collision_state_events": 2,
+    "note": "Forwarding and independent observer receipts validated; not proof every Nav2 consumer processed every scan."
+  },
+  "block-3-normal": {
+    "passed": true,
+    "branch_delivery": {
+      "localization": {
+        "dropped": 0.0,
+        "confirmed_receipts": 90,
+        "restoration_after_window_s": 0.07000000000000028
+      },
+      "obstacles": {
+        "dropped": 0.0,
+        "confirmed_receipts": 90,
+        "restoration_after_window_s": 0.07000000000000028
+      }
+    },
+    "transform_probes": {
+      "before": {
+        "samples": 16,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 16
+      },
+      "window": {
+        "samples": 40,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 40
+      },
+      "tail": {
+        "samples": 80,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 80
+      }
+    },
+    "collision_state_events": 0,
+    "note": "Forwarding and independent observer receipts validated; not proof every Nav2 consumer processed every scan."
+  },
+  "block-3-full-outage": {
+    "passed": true,
+    "branch_delivery": {
+      "localization": {
+        "dropped": 10.0,
+        "confirmed_receipts": 35,
+        "restoration_after_window_s": 0.061000000000003496
+      },
+      "obstacles": {
+        "dropped": 10.0,
+        "confirmed_receipts": 35,
+        "restoration_after_window_s": 0.061000000000003496
+      }
+    },
+    "transform_probes": {
+      "before": {
+        "samples": 16,
+        "map_odom_unavailable": 0,
+        "map_base_unavailable": 16
+      },
+      "window": {
+        "samples": 40,
+        "map_odom_unavailable": 22,
+        "map_base_unavailable": 40
+      },
+      "tail": {
+        "samples": 80,
+        "map_odom_unavailable": 2,
+        "map_base_unavailable": 80
+      }
+    },
+    "collision_state_events": 1,
+    "note": "Forwarding and independent observer receipts validated; not proof every Nav2 consumer processed every scan."
+  }
+}

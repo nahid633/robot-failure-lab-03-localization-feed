@@ -1,0 +1,106 @@
+{
+  "condition": "full-outage",
+  "duration_s": 2.0,
+  "start_sim_s": 16.524,
+  "end_sim_s": 20.58,
+  "window_start_sim_s": 19.548,
+  "window_start_task_s": 3.0239999999999974,
+  "trigger_pose": {
+    "x": 0.05102778064960904,
+    "y": 0.05745385510332072
+  },
+  "outcome": "failed",
+  "goal_accepted": true,
+  "terminal_action_status": 6,
+  "elapsed_sim_s": 4.055999999999997,
+  "elapsed_wall_s": 9.03202609400023,
+  "observation_end_sim_s": 25.548,
+  "action_error_code": 102,
+  "action_error_msg": "",
+  "scans_received": 45,
+  "localization_scans_dropped": 10,
+  "obstacle_scans_dropped": 10,
+  "recoveries": 0,
+  "graph": {
+    "/scan": [
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      }
+    ],
+    "/failure_lab03/localization_scan": [
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      },
+      {
+        "node": "amcl",
+        "namespace": "/"
+      }
+    ],
+    "/failure_lab03/obstacle_scan": [
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      },
+      {
+        "node": "local_costmap",
+        "namespace": "/local_costmap"
+      },
+      {
+        "node": "global_costmap",
+        "namespace": "/global_costmap"
+      },
+      {
+        "node": "collision_monitor",
+        "namespace": "/"
+      }
+    ]
+  },
+  "graph_end": {
+    "/scan": [
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      }
+    ],
+    "/failure_lab03/localization_scan": [
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      },
+      {
+        "node": "amcl",
+        "namespace": "/"
+      }
+    ],
+    "/failure_lab03/obstacle_scan": [
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      },
+      {
+        "node": "local_costmap",
+        "namespace": "/local_costmap"
+      },
+      {
+        "node": "global_costmap",
+        "namespace": "/global_costmap"
+      },
+      {
+        "node": "collision_monitor",
+        "namespace": "/"
+      }
+    ]
+  },
+  "metrics": {
+    "stop_latency_s": 1.0440000000000005,
+    "zero_command_latency_s": 0.8610000000000007,
+    "resume_after_window_s": null,
+    "pre_window_speed_mps": 0.0766727093185202,
+    "window_path_m": 0.11522717234006959,
+    "window_odom_samples": 56,
+    "window_odom_max_gap_s": 0.036000000000001364
+  },
+  "injection_valid": true
+}

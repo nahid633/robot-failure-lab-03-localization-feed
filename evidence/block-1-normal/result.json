@@ -1,0 +1,106 @@
+{
+  "condition": "normal",
+  "duration_s": 2.0,
+  "start_sim_s": 16.527,
+  "end_sim_s": 31.677,
+  "window_start_sim_s": 19.542,
+  "window_start_task_s": 3.0150000000000006,
+  "trigger_pose": {
+    "x": 0.051496221377855644,
+    "y": 0.06471640502842017
+  },
+  "outcome": "succeeded",
+  "goal_accepted": true,
+  "terminal_action_status": 4,
+  "elapsed_sim_s": 15.149999999999999,
+  "elapsed_wall_s": 15.161252731999866,
+  "observation_end_sim_s": 31.677,
+  "action_error_code": 0,
+  "action_error_msg": "",
+  "scans_received": 76,
+  "localization_scans_dropped": 0,
+  "obstacle_scans_dropped": 0,
+  "recoveries": 0,
+  "graph": {
+    "/scan": [
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      }
+    ],
+    "/failure_lab03/localization_scan": [
+      {
+        "node": "amcl",
+        "namespace": "/"
+      },
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      }
+    ],
+    "/failure_lab03/obstacle_scan": [
+      {
+        "node": "local_costmap",
+        "namespace": "/local_costmap"
+      },
+      {
+        "node": "global_costmap",
+        "namespace": "/global_costmap"
+      },
+      {
+        "node": "collision_monitor",
+        "namespace": "/"
+      },
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      }
+    ]
+  },
+  "graph_end": {
+    "/scan": [
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      }
+    ],
+    "/failure_lab03/localization_scan": [
+      {
+        "node": "amcl",
+        "namespace": "/"
+      },
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      }
+    ],
+    "/failure_lab03/obstacle_scan": [
+      {
+        "node": "local_costmap",
+        "namespace": "/local_costmap"
+      },
+      {
+        "node": "global_costmap",
+        "namespace": "/global_costmap"
+      },
+      {
+        "node": "collision_monitor",
+        "namespace": "/"
+      },
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      }
+    ]
+  },
+  "metrics": {
+    "stop_latency_s": null,
+    "zero_command_latency_s": null,
+    "resume_after_window_s": null,
+    "pre_window_speed_mps": 0.08952665175748724,
+    "window_path_m": 0.2871283598440574,
+    "window_odom_samples": 56,
+    "window_odom_max_gap_s": 0.036000000000001364
+  },
+  "injection_valid": true
+}

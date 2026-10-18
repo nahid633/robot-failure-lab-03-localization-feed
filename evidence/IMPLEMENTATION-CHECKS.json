@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-18",
+  "syntax_check": "python3 -m py_compile core.py trial.py run.py validate.py report.py test_core.py",
+  "unit_test_command": "python3 -m unittest -v test_core",
+  "unit_tests_passed": 6,
+  "tests": [
+    "exact_gate_boundaries",
+    "config_changes_only_scan_routes",
+    "graph_rejects_bypass_and_cross_feed",
+    "sparse_telemetry_not_sustained",
+    "stop_resume_and_rotation",
+    "missing_resume_not_zero"
+  ],
+  "verification_trials_validated": 3,
+  "main_trials_validated": 9,
+  "installed_package_snapshot_equal_to_lab02": true,
+  "parameters_equal_to_lab02_except_scan_routes": true
+}

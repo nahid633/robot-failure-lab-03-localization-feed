@@ -1,0 +1,11 @@
+{
+  "robot-failure-lab-01": {
+    "existing_archive_present": true,
+    "manifest_available": false
+  },
+  "robot-failure-lab-02": {
+    "manifest_available": true,
+    "files_verified": 169,
+    "passed": true
+  }
+}

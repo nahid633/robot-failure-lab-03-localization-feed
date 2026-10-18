@@ -1,0 +1,88 @@
+{
+  "experiment": "Robot Failure Lab 03",
+  "verification": false,
+  "verification_root": "/tmp/robot-failure-lab-03-verification-20261018",
+  "schedule": [
+    {
+      "block": 1,
+      "condition": "normal",
+      "gazebo_seed": 101
+    },
+    {
+      "block": 1,
+      "condition": "full-outage",
+      "gazebo_seed": 101
+    },
+    {
+      "block": 1,
+      "condition": "localization-fed",
+      "gazebo_seed": 101
+    },
+    {
+      "block": 2,
+      "condition": "full-outage",
+      "gazebo_seed": 102
+    },
+    {
+      "block": 2,
+      "condition": "localization-fed",
+      "gazebo_seed": 102
+    },
+    {
+      "block": 2,
+      "condition": "normal",
+      "gazebo_seed": 102
+    },
+    {
+      "block": 3,
+      "condition": "localization-fed",
+      "gazebo_seed": 103
+    },
+    {
+      "block": 3,
+      "condition": "normal",
+      "gazebo_seed": 103
+    },
+    {
+      "block": 3,
+      "condition": "full-outage",
+      "gazebo_seed": 103
+    }
+  ],
+  "trigger": ">=3 sim seconds after goal submission; translation >=0.05m/s sustained >=0.3s; odom age <=0.15s",
+  "window_s": 2.0,
+  "post_window_min_observation_s": 4.0,
+  "equal_pre_goal_wait_sim_s": 1.5,
+  "task_timeout_sim_s": 90.0,
+  "task_timeout_wall_s": 270.0,
+  "startup_timeout_wall_s": 60.0,
+  "change": "Two identical scan branches. Full outage drops both; localization-fed drops only obstacle branch; normal drops neither. No buffering/replay/timestamp rewriting.",
+  "seeds": "Gazebo 101/102/103 per main block; verification seed100. AMCL and scheduling uncontrolled. Not deterministic trajectories.",
+  "collision_monitor_source_timeout_s": 1.0,
+  "stop": "odom translation <=0.01m/s and |yaw| <=0.03rad/s for >=0.3s; gaps <=0.15s",
+  "resume": "translation >=0.05m/s for >=0.3s after window following measured stop",
+  "scope": "Standalone simulation; no replacement goal, Vektor integration, physical safety or general reliability claim.",
+  "command": [
+    "run.py",
+    "/tmp/robot-failure-lab-03-main-20261018",
+    "--verification-root",
+    "/tmp/robot-failure-lab-03-verification-20261018",
+    "--domain",
+    "191"
+  ],
+  "platform": "6.6.87.2-microsoft-standard-WSL2",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "source_sha256": {
+    "trial.py": "a488dd37637525c574d3a3f1e58413f6af6ee289dc9aed0cdec419deb726adc0",
+    "upstream_tb3_simulation_launch.txt": "cb65906827c9897100512d64ee1ac7537fe859e3fc29fcc96aec8119bd7bebf2",
+    "core.py": "4dddb5ff0ef1a8fe5df0338bcc978c26300219276911542731f38626c60d99e7",
+    "report.py": "2271e394806ad657d13fdd5b7bc57429971416092cd110eeb126edaf3dda967d",
+    "seeded_simulation_launch.py": "6b4443dd2ba90821fb44bbae45ef42ab8d4df34aaefb97af4b8a810d1fc95aca",
+    "run.py": "0bc427b4bec16357bd68251f2ccede703aa2c4c7511f29509ba49b971a4f6efd",
+    "README.md": "dc1d0163c2d915e5867abe13c8a409c9721c366a4728adf229fa183b7fc2d5d8",
+    "test_core.py": "d9cbedeaa0a2aee81108bf034bffd039fe40f00afac9e3b3fe66bb6235b8cb0d",
+    "validate.py": "0629da1dd88eab03144e82c29b6a9941011a44138b85d1ea7641b2b1aaf00b33"
+  },
+  "config_sha256": "17dc0a77a772cc2dc4d5339d001aaf172380e24d0e67ec94ee2c91ac71f63c89",
+  "packages_sha256": "8b3196f30ccd8c0726db13dcb7715a27d301cfe73bcb5b02c73f3bc2d4e66b93"
+}

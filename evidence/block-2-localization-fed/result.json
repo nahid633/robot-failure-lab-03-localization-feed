@@ -1,0 +1,106 @@
+{
+  "condition": "localization-fed",
+  "duration_s": 2.0,
+  "start_sim_s": 16.728,
+  "end_sim_s": 73.197,
+  "window_start_sim_s": 19.743,
+  "window_start_task_s": 3.014999999999997,
+  "trigger_pose": {
+    "x": 0.05533393287752474,
+    "y": 0.07112711312785878
+  },
+  "outcome": "succeeded",
+  "goal_accepted": true,
+  "terminal_action_status": 4,
+  "elapsed_sim_s": 56.469,
+  "elapsed_wall_s": 56.505299054999796,
+  "observation_end_sim_s": 73.197,
+  "action_error_code": 0,
+  "action_error_msg": "",
+  "scans_received": 282,
+  "localization_scans_dropped": 0,
+  "obstacle_scans_dropped": 10,
+  "recoveries": 5,
+  "graph": {
+    "/scan": [
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      }
+    ],
+    "/failure_lab03/localization_scan": [
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      },
+      {
+        "node": "amcl",
+        "namespace": "/"
+      }
+    ],
+    "/failure_lab03/obstacle_scan": [
+      {
+        "node": "collision_monitor",
+        "namespace": "/"
+      },
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      },
+      {
+        "node": "local_costmap",
+        "namespace": "/local_costmap"
+      },
+      {
+        "node": "global_costmap",
+        "namespace": "/global_costmap"
+      }
+    ]
+  },
+  "graph_end": {
+    "/scan": [
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      }
+    ],
+    "/failure_lab03/localization_scan": [
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      },
+      {
+        "node": "amcl",
+        "namespace": "/"
+      }
+    ],
+    "/failure_lab03/obstacle_scan": [
+      {
+        "node": "collision_monitor",
+        "namespace": "/"
+      },
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      },
+      {
+        "node": "local_costmap",
+        "namespace": "/local_costmap"
+      },
+      {
+        "node": "global_costmap",
+        "namespace": "/global_costmap"
+      }
+    ]
+  },
+  "metrics": {
+    "stop_latency_s": 1.0650000000000013,
+    "zero_command_latency_s": 0.8880000000000017,
+    "resume_after_window_s": 0.2170000000000023,
+    "pre_window_speed_mps": 0.09616220561292597,
+    "window_path_m": 0.1199804619101038,
+    "window_odom_samples": 55,
+    "window_odom_max_gap_s": 0.036000000000001364
+  },
+  "injection_valid": true
+}

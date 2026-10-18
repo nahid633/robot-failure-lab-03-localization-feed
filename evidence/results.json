@@ -1,0 +1,992 @@
+[
+  {
+    "condition": "normal",
+    "duration_s": 2.0,
+    "start_sim_s": 16.527,
+    "end_sim_s": 31.677,
+    "window_start_sim_s": 19.542,
+    "window_start_task_s": 3.0150000000000006,
+    "trigger_pose": {
+      "x": 0.051496221377855644,
+      "y": 0.06471640502842017
+    },
+    "outcome": "succeeded",
+    "goal_accepted": true,
+    "terminal_action_status": 4,
+    "elapsed_sim_s": 15.149999999999999,
+    "elapsed_wall_s": 15.161252731999866,
+    "observation_end_sim_s": 31.677,
+    "action_error_code": 0,
+    "action_error_msg": "",
+    "scans_received": 76,
+    "localization_scans_dropped": 0,
+    "obstacle_scans_dropped": 0,
+    "recoveries": 0,
+    "graph": {
+      "/scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/localization_scan": [
+        {
+          "node": "amcl",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/obstacle_scan": [
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ]
+    },
+    "graph_end": {
+      "/scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/localization_scan": [
+        {
+          "node": "amcl",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/obstacle_scan": [
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ]
+    },
+    "metrics": {
+      "stop_latency_s": null,
+      "zero_command_latency_s": null,
+      "resume_after_window_s": null,
+      "pre_window_speed_mps": 0.08952665175748724,
+      "window_path_m": 0.2871283598440574,
+      "window_odom_samples": 56,
+      "window_odom_max_gap_s": 0.036000000000001364
+    },
+    "injection_valid": true,
+    "trial": "block-1-normal",
+    "block": 1,
+    "gazebo_seed": 101,
+    "evidence_validated": true
+  },
+  {
+    "condition": "full-outage",
+    "duration_s": 2.0,
+    "start_sim_s": 16.524,
+    "end_sim_s": 20.589,
+    "window_start_sim_s": 19.542,
+    "window_start_task_s": 3.0180000000000007,
+    "trigger_pose": {
+      "x": 0.05513223671255948,
+      "y": 0.06778978632522818
+    },
+    "outcome": "failed",
+    "goal_accepted": true,
+    "terminal_action_status": 6,
+    "elapsed_sim_s": 4.064999999999998,
+    "elapsed_wall_s": 9.022785242999817,
+    "observation_end_sim_s": 25.542,
+    "action_error_code": 102,
+    "action_error_msg": "",
+    "scans_received": 45,
+    "localization_scans_dropped": 10,
+    "obstacle_scans_dropped": 10,
+    "recoveries": 0,
+    "graph": {
+      "/scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/localization_scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "amcl",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/obstacle_scan": [
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        }
+      ]
+    },
+    "graph_end": {
+      "/scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/localization_scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "amcl",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/obstacle_scan": [
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        }
+      ]
+    },
+    "metrics": {
+      "stop_latency_s": 1.0859999999999985,
+      "zero_command_latency_s": 0.8969999999999985,
+      "resume_after_window_s": null,
+      "pre_window_speed_mps": 0.09108129396860527,
+      "window_path_m": 0.12821559164575735,
+      "window_odom_samples": 56,
+      "window_odom_max_gap_s": 0.036000000000001364
+    },
+    "injection_valid": true,
+    "trial": "block-1-full-outage",
+    "block": 1,
+    "gazebo_seed": 101,
+    "evidence_validated": true
+  },
+  {
+    "condition": "localization-fed",
+    "duration_s": 2.0,
+    "start_sim_s": 16.524,
+    "end_sim_s": 46.653,
+    "window_start_sim_s": 19.542,
+    "window_start_task_s": 3.0180000000000007,
+    "trigger_pose": {
+      "x": 0.06345803004048614,
+      "y": 0.07949957654262937
+    },
+    "outcome": "succeeded",
+    "goal_accepted": true,
+    "terminal_action_status": 4,
+    "elapsed_sim_s": 30.128999999999998,
+    "elapsed_wall_s": 30.144478473000163,
+    "observation_end_sim_s": 46.653,
+    "action_error_code": 0,
+    "action_error_msg": "",
+    "scans_received": 151,
+    "localization_scans_dropped": 0,
+    "obstacle_scans_dropped": 10,
+    "recoveries": 3,
+    "graph": {
+      "/scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/localization_scan": [
+        {
+          "node": "amcl",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/obstacle_scan": [
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ]
+    },
+    "graph_end": {
+      "/scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/localization_scan": [
+        {
+          "node": "amcl",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/obstacle_scan": [
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ]
+    },
+    "metrics": {
+      "stop_latency_s": 1.0499999999999972,
+      "zero_command_latency_s": 0.8759999999999977,
+      "resume_after_window_s": 0.16599999999999682,
+      "pre_window_speed_mps": 0.08965092219232346,
+      "window_path_m": 0.11097460704454618,
+      "window_odom_samples": 56,
+      "window_odom_max_gap_s": 0.036000000000001364
+    },
+    "injection_valid": true,
+    "trial": "block-1-localization-fed",
+    "block": 1,
+    "gazebo_seed": 101,
+    "evidence_validated": true
+  },
+  {
+    "condition": "full-outage",
+    "duration_s": 2.0,
+    "start_sim_s": 16.527,
+    "end_sim_s": 20.577,
+    "window_start_sim_s": 19.542,
+    "window_start_task_s": 3.0150000000000006,
+    "trigger_pose": {
+      "x": 0.05183268535815967,
+      "y": 0.06286390181158304
+    },
+    "outcome": "failed",
+    "goal_accepted": true,
+    "terminal_action_status": 6,
+    "elapsed_sim_s": 4.050000000000001,
+    "elapsed_wall_s": 9.02210679000018,
+    "observation_end_sim_s": 25.542,
+    "action_error_code": 102,
+    "action_error_msg": "",
+    "scans_received": 45,
+    "localization_scans_dropped": 10,
+    "obstacle_scans_dropped": 10,
+    "recoveries": 0,
+    "graph": {
+      "/scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/localization_scan": [
+        {
+          "node": "amcl",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/obstacle_scan": [
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ]
+    },
+    "graph_end": {
+      "/scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/localization_scan": [
+        {
+          "node": "amcl",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/obstacle_scan": [
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ]
+    },
+    "metrics": {
+      "stop_latency_s": 1.0859999999999985,
+      "zero_command_latency_s": 0.8999999999999986,
+      "resume_after_window_s": null,
+      "pre_window_speed_mps": 0.09543688438636211,
+      "window_path_m": 0.12235650390283889,
+      "window_odom_samples": 56,
+      "window_odom_max_gap_s": 0.036000000000001364
+    },
+    "injection_valid": true,
+    "trial": "block-2-full-outage-attempt-2",
+    "block": 2,
+    "gazebo_seed": 102,
+    "evidence_validated": true
+  },
+  {
+    "condition": "localization-fed",
+    "duration_s": 2.0,
+    "start_sim_s": 16.728,
+    "end_sim_s": 73.197,
+    "window_start_sim_s": 19.743,
+    "window_start_task_s": 3.014999999999997,
+    "trigger_pose": {
+      "x": 0.05533393287752474,
+      "y": 0.07112711312785878
+    },
+    "outcome": "succeeded",
+    "goal_accepted": true,
+    "terminal_action_status": 4,
+    "elapsed_sim_s": 56.469,
+    "elapsed_wall_s": 56.505299054999796,
+    "observation_end_sim_s": 73.197,
+    "action_error_code": 0,
+    "action_error_msg": "",
+    "scans_received": 282,
+    "localization_scans_dropped": 0,
+    "obstacle_scans_dropped": 10,
+    "recoveries": 5,
+    "graph": {
+      "/scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/localization_scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "amcl",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/obstacle_scan": [
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        }
+      ]
+    },
+    "graph_end": {
+      "/scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/localization_scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "amcl",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/obstacle_scan": [
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        }
+      ]
+    },
+    "metrics": {
+      "stop_latency_s": 1.0650000000000013,
+      "zero_command_latency_s": 0.8880000000000017,
+      "resume_after_window_s": 0.2170000000000023,
+      "pre_window_speed_mps": 0.09616220561292597,
+      "window_path_m": 0.1199804619101038,
+      "window_odom_samples": 55,
+      "window_odom_max_gap_s": 0.036000000000001364
+    },
+    "injection_valid": true,
+    "trial": "block-2-localization-fed",
+    "block": 2,
+    "gazebo_seed": 102,
+    "evidence_validated": true
+  },
+  {
+    "condition": "normal",
+    "duration_s": 2.0,
+    "start_sim_s": 16.524,
+    "end_sim_s": 31.779,
+    "window_start_sim_s": 19.545,
+    "window_start_task_s": 3.021000000000001,
+    "trigger_pose": {
+      "x": 0.05865607255352292,
+      "y": 0.07253403265750719
+    },
+    "outcome": "succeeded",
+    "goal_accepted": true,
+    "terminal_action_status": 4,
+    "elapsed_sim_s": 15.254999999999999,
+    "elapsed_wall_s": 15.263253052999971,
+    "observation_end_sim_s": 31.779,
+    "action_error_code": 0,
+    "action_error_msg": "",
+    "scans_received": 76,
+    "localization_scans_dropped": 0,
+    "obstacle_scans_dropped": 0,
+    "recoveries": 0,
+    "graph": {
+      "/scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/localization_scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "amcl",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/obstacle_scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        }
+      ]
+    },
+    "graph_end": {
+      "/scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/localization_scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "amcl",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/obstacle_scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        }
+      ]
+    },
+    "metrics": {
+      "stop_latency_s": null,
+      "zero_command_latency_s": null,
+      "resume_after_window_s": null,
+      "pre_window_speed_mps": 0.09294898600600351,
+      "window_path_m": 0.27247358756546536,
+      "window_odom_samples": 56,
+      "window_odom_max_gap_s": 0.036000000000001364
+    },
+    "injection_valid": true,
+    "trial": "block-2-normal",
+    "block": 2,
+    "gazebo_seed": 102,
+    "evidence_validated": true
+  },
+  {
+    "condition": "localization-fed",
+    "duration_s": 2.0,
+    "start_sim_s": 16.527,
+    "end_sim_s": 32.691,
+    "window_start_sim_s": 19.542,
+    "window_start_task_s": 3.0150000000000006,
+    "trigger_pose": {
+      "x": 0.05647997099797591,
+      "y": 0.07256600257985188
+    },
+    "outcome": "succeeded",
+    "goal_accepted": true,
+    "terminal_action_status": 4,
+    "elapsed_sim_s": 16.164,
+    "elapsed_wall_s": 16.17400393099979,
+    "observation_end_sim_s": 32.691,
+    "action_error_code": 0,
+    "action_error_msg": "",
+    "scans_received": 81,
+    "localization_scans_dropped": 0,
+    "obstacle_scans_dropped": 10,
+    "recoveries": 0,
+    "graph": {
+      "/scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/localization_scan": [
+        {
+          "node": "amcl",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/obstacle_scan": [
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ]
+    },
+    "graph_end": {
+      "/scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/localization_scan": [
+        {
+          "node": "amcl",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/obstacle_scan": [
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ]
+    },
+    "metrics": {
+      "stop_latency_s": 1.0859999999999985,
+      "zero_command_latency_s": 0.8879999999999981,
+      "resume_after_window_s": 0.20199999999999818,
+      "pre_window_speed_mps": 0.09577605150317235,
+      "window_path_m": 0.14111212143733953,
+      "window_odom_samples": 56,
+      "window_odom_max_gap_s": 0.036000000000001364
+    },
+    "injection_valid": true,
+    "trial": "block-3-localization-fed",
+    "block": 3,
+    "gazebo_seed": 103,
+    "evidence_validated": true
+  },
+  {
+    "condition": "normal",
+    "duration_s": 2.0,
+    "start_sim_s": 16.521,
+    "end_sim_s": 34.425,
+    "window_start_sim_s": 19.539,
+    "window_start_task_s": 3.0180000000000007,
+    "trigger_pose": {
+      "x": 0.05174576817682044,
+      "y": 0.06141883354591266
+    },
+    "outcome": "succeeded",
+    "goal_accepted": true,
+    "terminal_action_status": 4,
+    "elapsed_sim_s": 17.903999999999996,
+    "elapsed_wall_s": 17.91558324200014,
+    "observation_end_sim_s": 34.425,
+    "action_error_code": 0,
+    "action_error_msg": "",
+    "scans_received": 90,
+    "localization_scans_dropped": 0,
+    "obstacle_scans_dropped": 0,
+    "recoveries": 0,
+    "graph": {
+      "/scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/localization_scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "amcl",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/obstacle_scan": [
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        }
+      ]
+    },
+    "graph_end": {
+      "/scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/localization_scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "amcl",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/obstacle_scan": [
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        },
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        }
+      ]
+    },
+    "metrics": {
+      "stop_latency_s": null,
+      "zero_command_latency_s": null,
+      "resume_after_window_s": null,
+      "pre_window_speed_mps": 0.08724009779870819,
+      "window_path_m": 0.2791046558168311,
+      "window_odom_samples": 56,
+      "window_odom_max_gap_s": 0.036000000000001364
+    },
+    "injection_valid": true,
+    "trial": "block-3-normal",
+    "block": 3,
+    "gazebo_seed": 103,
+    "evidence_validated": true
+  },
+  {
+    "condition": "full-outage",
+    "duration_s": 2.0,
+    "start_sim_s": 16.524,
+    "end_sim_s": 20.58,
+    "window_start_sim_s": 19.548,
+    "window_start_task_s": 3.0239999999999974,
+    "trigger_pose": {
+      "x": 0.05102778064960904,
+      "y": 0.05745385510332072
+    },
+    "outcome": "failed",
+    "goal_accepted": true,
+    "terminal_action_status": 6,
+    "elapsed_sim_s": 4.055999999999997,
+    "elapsed_wall_s": 9.03202609400023,
+    "observation_end_sim_s": 25.548,
+    "action_error_code": 102,
+    "action_error_msg": "",
+    "scans_received": 45,
+    "localization_scans_dropped": 10,
+    "obstacle_scans_dropped": 10,
+    "recoveries": 0,
+    "graph": {
+      "/scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/localization_scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "amcl",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/obstacle_scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        }
+      ]
+    },
+    "graph_end": {
+      "/scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/localization_scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "amcl",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab03/obstacle_scan": [
+        {
+          "node": "failure_lab_03_observer",
+          "namespace": "/"
+        },
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        }
+      ]
+    },
+    "metrics": {
+      "stop_latency_s": 1.0440000000000005,
+      "zero_command_latency_s": 0.8610000000000007,
+      "resume_after_window_s": null,
+      "pre_window_speed_mps": 0.0766727093185202,
+      "window_path_m": 0.11522717234006959,
+      "window_odom_samples": 56,
+      "window_odom_max_gap_s": 0.036000000000001364
+    },
+    "injection_valid": true,
+    "trial": "block-3-full-outage",
+    "block": 3,
+    "gazebo_seed": 103,
+    "evidence_validated": true
+  }
+]

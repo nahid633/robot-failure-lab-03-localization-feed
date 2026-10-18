@@ -1,0 +1,17 @@
+{
+  "command": [
+    "run.py",
+    "/tmp/robot-failure-lab-03-main-20261018",
+    "--resume-infrastructure",
+    "--domain",
+    "192"
+  ],
+  "domain": 192,
+  "preserved_trials": [
+    "block-1-normal",
+    "block-1-full-outage",
+    "block-1-localization-fed"
+  ],
+  "runner_sha256": "0bc427b4bec16357bd68251f2ccede703aa2c4c7511f29509ba49b971a4f6efd",
+  "reason": "Continue only before-goal infrastructure failures. Never rerun task outcomes."
+}

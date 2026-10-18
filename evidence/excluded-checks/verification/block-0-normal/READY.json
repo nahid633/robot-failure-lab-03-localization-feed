@@ -1,0 +1,39 @@
+{
+  "sim_time": 16.122,
+  "graph": {
+    "/scan": [
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      }
+    ],
+    "/failure_lab03/localization_scan": [
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      },
+      {
+        "node": "amcl",
+        "namespace": "/"
+      }
+    ],
+    "/failure_lab03/obstacle_scan": [
+      {
+        "node": "failure_lab_03_observer",
+        "namespace": "/"
+      },
+      {
+        "node": "local_costmap",
+        "namespace": "/local_costmap"
+      },
+      {
+        "node": "global_costmap",
+        "namespace": "/global_costmap"
+      },
+      {
+        "node": "collision_monitor",
+        "namespace": "/"
+      }
+    ]
+  }
+}
